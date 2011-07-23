@@ -8,7 +8,11 @@ set number
 set guifont=Menlo
 
 color solarized
-set background=light 
+	if has('gui_running')
+		set background=light
+	else
+		set background=dark
+	endif
 set guioptions=aAce
 set columns=120
 set wrap
