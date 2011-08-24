@@ -3,6 +3,7 @@ set encoding=utf-8
 
 syntax on
 set tabstop=3
+set autoindent
 set hlsearch
 set number
 set guifont=Menlo
@@ -22,7 +23,8 @@ set softtabstop=3
 set noexpandtab
 
 "Fullscreen max size"
-set fuopt=maxvert,maxhorz
+"set fuopt=maxvert,maxhorz"
+set fuopt=maxvert
 
 
 " don't list invisible characters
@@ -32,4 +34,5 @@ set nolist
 let mapleader = ","
 :imap <Esc>
 
+nnoremap <silent> <C-l> :nohl<CR><C-l>
 nnoremap <leader>w <C-w>v<C-w>l"
