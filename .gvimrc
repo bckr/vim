@@ -36,3 +36,5 @@ let mapleader = ","
 
 nnoremap <silent> <C-l> :nohl<CR><C-l>
 nnoremap <leader>w <C-w>v<C-w>l"
+
+au BufNewFile,BufRead *.less set filetype=css
