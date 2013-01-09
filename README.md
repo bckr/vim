@@ -1,4 +1,4 @@
-vim
+Vim
 ===
 
-Just my vim preferences
+My vim preferences
