@@ -13,7 +13,6 @@ set colorcolumn=72
 
 color smyck
 set guioptions=aAce
-set columns=120
 set wrap
 
 set tabstop=2
